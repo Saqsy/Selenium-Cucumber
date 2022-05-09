@@ -3,6 +3,10 @@
 
 @Login
 Feature: Login to the application
+
+Background:
+Given Something will happen
+
 Scenario: Testing the login functionality with the valid user credentials
 Given when the user is in the HomePage
 When The user clicks on Login/Sign Up link
